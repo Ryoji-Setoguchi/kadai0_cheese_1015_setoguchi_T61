@@ -1,0 +1,295 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+/* 16px × 62.5% = 10px */
+
+/* *{
+    outline: 2px red solid;
+} */
+
+body {
+    font-family: 'Noto Sans JP', 'Open Sans', sans-serif;
+    width: 1200px;
+}
+
+.navi {
+    font-size: 21px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*------------------
+title
+------------------*/
+.academy {
+    position: relative;
+    margin: auto;
+}
+.academy2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.header-title {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 0 0 50px;
+    font-size: 21px;
+}
+.nav-item>a{
+    color: black;
+    text-transform: uppercase;
+}
+
+.site-title {
+    font-size: 40px;
+    font-weight:bold;
+    color:white;
+    letter-spacing: 2px;
+}
+.sub-title {
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+    white-space: nowrap;
+}
+
+/*------------------
+about
+------------------*/
+.about {
+    text-align: center;
+}
+
+.a1 {
+    margin: 0 0 60px;
+}
+.a2 {
+    margin: 0 0 20px;
+}
+.a3 {
+    margin: 0 0 80px;
+    line-height: 2;
+}
+.a4 {
+    margin: 0 0 40px;
+}
+
+.news__list {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    object-fit: cover;
+}
+
+.eng-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 60px 0 30px;
+}
+
+.jap-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 120px 0 40px;
+}
+
+.color-title {
+    color: #ffd614;
+}
+
+/*------------------
+course
+------------------*/
+.course {
+    background-color: #fafafa;
+    width: 1200px;
+}
+
+.cimage {
+    width: 600px;
+}
+
+.cdetail {
+}
+
+.c0 {
+    margin: 0 0 60px;
+    line-height: 2;
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c2 {
+    margin-left: 50px;
+    width: 480px;
+    text-align: left;
+    line-height: 2;
+}
+
+.c1-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 120px 0 40px;
+}
+
+/*------------------
+news
+------------------*/
+.btn {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 21px 0;
+    background-color: #ffd514;
+    color: #fff;
+    border: #cacaca;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #cacaca;
+    color: #ffd514;
+}
+
+.news__pizza {
+    margin: 60px 0 30px;
+}
+
+.a {
+    margin: 0 0 24px;
+}
+
+.b {
+    margin: 0 0 60px;
+    text-align: left;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: center;
+}
+
+.about__img {
+    width: 300px;
+}
+
+.space {
+    margin: 0 30px 0 0;
+}
+
+/*------------------
+access
+------------------*/
+.acc {
+    background-color: #fafafa;
+    margin: 60px 0 0;
+}
+.access {
+    padding: 30px 0 60px;
+}
+
+.map {
+    width: 100%;
+    padding: 0 0 60px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table tr {
+    padding: 8px 0 0 0 ;
+}
+
+table td {
+    padding: 20px;
+    text-align: left;
+}
+
+label {
+    margin: 0 0 8px;
+}
+
+
+/*------------------
+contact
+------------------*/
+.d {
+    line-height: 2;
+    margin: 0 0 70px;
+}
+.contact1 {
+    margin: 0 0 60px;
+}
+.contact2 {
+    margin: 0 0 30px;
+}
+
+/*---------------
+new
+*--------------*/
+table {
+    width: 640px;
+    margin: auto;
+    white-space: nowrap;
+}
+
+table tr {
+    text-align: left;
+}
+
+
+
+/*-------------*/
+.form-wrapper {
+    width: 640px;
+    margin: auto;
+    border: #bfbfbf;
+
+}
+
+.form-inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.from-title {
+    width: 240px;
+}
+.form-item {
+    width: 400px;
+}
+
+/*------------------
+footer
+------------------*/
+.footer {
+    background-color: #707070;
+    padding: 30px 0;
+    margin: 140px 0 0;
+}
+.footer1 {
+    color: #fff;
+}
